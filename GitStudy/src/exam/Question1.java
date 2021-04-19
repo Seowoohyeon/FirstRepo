@@ -10,5 +10,6 @@ public class Question1 {
 		System.out.println("Have a Good Day");
 		
 		System.out.println("BranchA 생성 기념 업데이트");
+		System.out.println("BranchA를 한 번 더 진행");
 	}
 }
