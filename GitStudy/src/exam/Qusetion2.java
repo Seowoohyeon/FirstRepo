@@ -6,5 +6,6 @@ public class Qusetion2 {
 		System.out.println("Random");
 		
 		System.out.println("branchA 생성");
+		System.out.println("branchA 너도 축하해!!");
 	}
 }
