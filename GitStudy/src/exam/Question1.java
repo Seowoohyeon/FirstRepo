@@ -6,6 +6,7 @@ public class Question1 {
 		System.out.println("(  xx)");
 		System.out.println("(  >¢¾)");
 		
+		System.out.println("Hello");
 		System.out.println("Have a Good Day");
 	}
 }
