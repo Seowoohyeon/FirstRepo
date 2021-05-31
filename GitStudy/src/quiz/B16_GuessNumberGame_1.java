@@ -20,7 +20,7 @@ public class B16_GuessNumberGame_1 {
             
             StringBuilder answer_builer = new StringBuilder();
             Scanner input_scanner = new Scanner(System.in);
-            ArrayList al = new ArrayList();
+            ArrayList al;
             
 
             // 기본 타입 변수는 0으로 초기화
@@ -100,8 +100,8 @@ public class B16_GuessNumberGame_1 {
 	                    tryCount++;
 	                    System.out.println(tryCount + "번만에 맞추셨군요!!");
 	                    
-	                    ran = new int[al]; 
-	                    
+	                    al = new ArrayList(tryCount);
+
 	                    
 	            }
             } else if(rank.exists()) {
