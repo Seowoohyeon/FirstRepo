@@ -31,6 +31,7 @@ public class A01_JdbcConnection {
 		// 1. Class.forName()으로 해당 DB사의 jdbc드라이버를 로드한다
 		try {
 			// 1. Class.forName()으로 해당 DB사의 jdbc드라이버를 로드한다
+			// 1번은 생략 가능
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			System.out.println("OracleDriver가 존재함");
 			
