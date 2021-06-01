@@ -19,7 +19,7 @@ public class A02_CRUD {
 		String sql = "insert into fruits " + "values(fruits_sqe.nextval, 'Kiwi', 'ORANGE')";
 		String sql2 = "select * from fruits order by fid desc";
 		try(
-				Connection conn = DBConnecter.getConncetion();
+				Connection conn = DBConnector.getConnection();
 				PreparedStatement pstmt = conn.prepareStatement(sql);
 				PreparedStatement pstmt2 = conn.prepareStatement(sql2);
 		) {

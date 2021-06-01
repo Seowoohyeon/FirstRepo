@@ -83,8 +83,8 @@ public class D09_Regex {
 		 	  5. [ex]+ : ÃÖ¼Ò ÇÑ¹ø ÀÌ»ó
 		 	  6. [ex]* : 0¹ø ¶Ç´Â ¿©·¯¹ø
 		 */
-		int _ = 1;
-		System.out.println("Àß¸¸µÊ;; : " +_);
+		//int _ = 1;
+		System.out.println("Àß¸¸µÊ;; : ");
 		System.out.println(Pattern.matches("[\\D3-5]{5}\\.txt", "34534.txt"));
 		System.out.println(Pattern.matches("[\\D3-5]{2,5}\\.txt", "34534.txt"));
 		System.out.println(Pattern.matches("[°¡-ÆR]{2,}\\.txt", "¾È³ç.txt"));

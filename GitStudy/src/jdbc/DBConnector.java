@@ -10,7 +10,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-public class DBConnecter {
+public class DBConnector {
 	
 	static String driverName;
 	static String url;
@@ -57,7 +57,7 @@ public class DBConnecter {
 		}
 	}
 	
-	static Connection getConncetion() {
+	  public static Connection getConnection() {
 		try {
 			return DriverManager.getConnection(url, id, password);
 		} catch (SQLException e) {

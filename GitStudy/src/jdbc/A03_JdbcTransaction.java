@@ -9,7 +9,7 @@ public class A03_JdbcTransaction {
 		String sql = "update fruits set fcolor = 'BLUE' where fname ='Kiwi'";
 		
 		try(
-			Connection conn = DBConnecter.getConncetion();
+			Connection conn = DBConnector.getConnection();
 			PreparedStatement pstmt = conn.prepareStatement(sql);
 		){
 			// jdbc로 처음 연결을 생성하면 기본적으로 AutoCommit이 활성화 되어있다
