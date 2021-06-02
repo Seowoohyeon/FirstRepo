@@ -14,14 +14,11 @@ public class Employee {
 	private String job_id;
 	private int salary;
 	private double commission_pct;
-	private int manager_id;
-	private int department_id;
+	private Employee manager_id;
+	private Department department;
 	
-	public Employee(ResultSet rs) throws SQLException  {
-		employee_id = rs.getInt("employee_id");
-		first_name = rs.getString("first_name");
-		last_name = rs.getString("last_name");
-		hire_date = rs.getDate("hire_data");
+	public Employee() {
+		// TODO Auto-generated constructor stub
 	}
 	
 	public int getEmployee_id() {
@@ -78,17 +75,17 @@ public class Employee {
 	public void setCommission_pct(double commission_pct) {
 		this.commission_pct = commission_pct;
 	}
-	public int getManager_id() {
+	public Employee getManager_id() {
 		return manager_id;
 	}
-	public void setManager_id(int manager_id) {
+	public void setManager_id(Employee manager_id) {
 		this.manager_id = manager_id;
 	}
-	public int getDepartment_id() {
-		return department_id;
+	public Department getDepartment() {
+		return department;
 	}
-	public void setDepartment_id(int department_id) {
-		this.department_id = department_id;
+	public void setDepartment(Department department) {
+		this.department = department;
 	}
 	
 	

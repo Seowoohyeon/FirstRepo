@@ -45,7 +45,7 @@ public class A04_DESC {
 						break;
 					}
 				}*/
-				Employee e = new Employee(rs);
+				//Employee e = new Employee();
 				
 				
 				
