@@ -19,7 +19,7 @@ public class A07_JoinAnswer {
 		
 		config.setJdbcUrl("jdbc:oracle:thin:@localhost:1521/XEPDB1");
 		config.setUsername("hr");
-		config.setPassword("1234");
+		config.setPassword("qwer");
 
 		HikariDataSource ds = new HikariDataSource(config);
 		
