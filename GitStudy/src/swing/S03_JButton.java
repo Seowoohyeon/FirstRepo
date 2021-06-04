@@ -34,7 +34,7 @@ public class S03_JButton extends JFrame {
 		// 해당 컴포넌트의 아이콘을 설정한다
 		btn1.setIcon(cicon);
 		add(btn1);
-		add(new S03_KakaoImageButton(S03_KakaoImageButton.APHEACH,))
+		add(new S03_KakaoImageButton(S03_KakaoImageButton.APEACH, 100, 300, 100, 100));
 		setLocation(500, 50);
 		setSize(500,600);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
